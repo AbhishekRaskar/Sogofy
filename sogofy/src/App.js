@@ -3,7 +3,7 @@ import './App.css';
 import Counter from './Components/Counter';
 // import Form from './Components/Form';
 // import Timer from './Components/Timer';
-// import User from './Components/User';
+import User from './Components/User';
 import { ThemeContext } from './Context/ThemeContextProvider';
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
       <Counter />
       
       <hr />
+      <User />
       {/* <Form />
       <hr />
-      <User />
       <Timer /> */}
     </div>
   );
