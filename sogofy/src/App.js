@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import './App.css';
 import Counter from './Components/Counter';
-// import Form from './Components/Form';
+import Form from './Components/Form';
 // import Timer from './Components/Timer';
 import User from './Components/User';
 import { ThemeContext } from './Context/ThemeContextProvider';
@@ -17,10 +17,10 @@ function App() {
       <Counter />
       
       <hr />
-      <User />
-      {/* <Form />
+      <Form />
       <hr />
-      <Timer /> */}
+      <User />
+      {/* <Timer />  */}
     </div>
   );
 }
